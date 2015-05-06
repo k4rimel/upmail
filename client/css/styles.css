@@ -1,0 +1,80 @@
+@font-face {
+font-family: 'robotoBold';
+src: url('font/Roboto-Bold.ttf');
+}
+
+@font-face {
+font-family: 'roboto';
+src: url('font/Roboto-Light.ttf');
+}
+
+@font-face {
+font-family: 'robotoMedium';
+src: url('font/Roboto-Medium.ttf');
+}
+
+@font-face {
+font-family: 'robotoLight';
+src: url('font/Roboto-Light.ttf');
+}
+
+@font-face {
+font-family: 'robotoThin';
+src: url('font/Roboto-Thin.ttf');
+}
+#main-radio-button {
+	font-size: 2.2rem;
+}
+.form-row {
+	margin-bottom: 2.5em;
+}
+.btn-send-email {
+	width: 100%;
+}
+textarea:focus {
+  	border-bottom: 1px solid #4caf50;
+  	-webkit-box-shadow: 0 1px 0 0 #4caf50;
+  	-moz-box-shadow: 0 1px 0 0 #4caf50;
+  	box-shadow: 0 1px 0 0 #4caf50;
+}
+input[type=text]:focus:not([readonly]), 
+input[type=password]:focus:not([readonly]), 
+input[type=email]:focus:not([readonly]), 
+input[type=url]:focus:not([readonly]), 
+input[type=time]:focus:not([readonly]), 
+input[type=date]:focus:not([readonly]), 
+input[type=datetime-local]:focus:not([readonly]), 
+input[type=tel]:focus:not([readonly]), 
+input[type=number]:focus:not([readonly]), 
+input[type=search]:focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #4caf50;
+	-webkit-box-shadow: 0 1px 0 0 #4caf50;
+	-moz-box-shadow: 0 1px 0 0 #4caf50;
+	box-shadow: 0 1px 0 0 #4caf50;
+}
+
+input[type=text]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label,
+input[type=url]:focus:not([readonly])+label,
+input[type=time]:focus:not([readonly])+label,
+input[type=date]:focus:not([readonly])+label,
+input[type=datetime-local]:focus:not([readonly])+label,
+input[type=tel]:focus:not([readonly])+label,
+input[type=number]:focus:not([readonly])+label,
+input[type=search]:focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label {
+  color: #4caf50;
+}
+.input-field .prefix.active {
+	color:#4caf50;
+}
+nav .nav-wrapper i {
+  display: block;
+  font-size: 3.5rem;
+  margin-left: 0.5em;
+}
+.hidden {
+	display: none;
+}
