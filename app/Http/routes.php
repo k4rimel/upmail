@@ -11,6 +11,7 @@
 |
 */
 
-$app->get('/', function() use ($app) {
-    return $app->welcome();
-});
+
+
+$app->get('/', ['as' => 'message.index','uses' => 'App\Http\Controllers\Message@indexMessage']);
+$app->post('/message', ['as' => 'message.upload','uses' => 'App\Http\Controllers\Message@createMessage']);
